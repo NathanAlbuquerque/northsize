@@ -1,0 +1,35 @@
+.gadget-searchbar {
+    width: 150px;
+    position: relative;
+    margin-right: 15px;
+}
+.gadget-searchbar .gadget-searchbar-button {
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 5px;
+    background-color: #0000;
+}
+.gadget-searchbar .gadget-searchbar-button:hover {
+    background-color: var(--ns0-bg-color);
+}
+.gadget-searchbar .gadget-searchbar-input {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--ns0-bg-color);
+    font-size: 16rem;
+    padding-left: 40px;
+}
+.gadget-searchbar:hover .gadget-searchbar-input {
+    background-color: var(--ns1-bg-color);
+}
+
+.gadget-searchbar .gadget-searchbar-input::placeholder {
+    font-size: 16rem;
+}

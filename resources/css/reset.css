@@ -1,0 +1,30 @@
+:root {
+    --ns0-brand-color: #000;
+    --ns1-brand-color: purple;
+    --ns0-bg-color: #f8f8f8;
+    --ns1-bg-color: #d5d5d5;
+    --ns0-text-color: #747474;
+    --ns1-text-color: #000;
+}
+
+html {
+    font-size: calc(0.0625em);
+    height: 10000px;
+}
+
+a, i, p {
+    font-size: 12rem;
+    text-decoration: none;
+    color: var(--ns0-text-color);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+a:hover {
+    color: var(--ns1-text-color);
+}
+
+ul {
+    list-style: none;
+}

@@ -1,0 +1,36 @@
+.headerhelp {
+    position: fixed;
+    background-color: var(--ns0-bg-color);
+    width: 100%;
+    height: 40px;
+}
+
+.headerhelp .headerhelp-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 0;
+}
+
+.headerhelp .headerhelp-infos {
+    font-size: 12rem;
+}
+
+.headerhelp .headerhelp-helps ul {
+    display: flex;
+}
+
+.headerhelp .headerhelp-helps ul li a {
+    padding: 0 16rem;
+    border-right: solid 1px #000;
+}
+
+.headerhelp .headerhelp-helps ul li:last-child a {
+    padding-right: 0;
+    border: none;
+}
+
+/*
+headerhelp
+container
+headerhelp-infos
+headerhelp-helps */

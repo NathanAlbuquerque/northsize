@@ -1,0 +1,12 @@
+.gadget-button {
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.gadget-button:hover {
+    background-color: var(--ns1-bg-color);
+}
+
+.gadget-button a i.fa::before {
+    font-size: 20rem;
+}
