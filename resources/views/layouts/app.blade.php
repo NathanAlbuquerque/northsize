@@ -16,7 +16,9 @@
 <body>
 
     <x-header-help></x-header-help>
+    <x-the-header></x-the-header>
     {{ $slot }}
+    <x-the-footer></x-the-footer>
 
     <!-- Bootstrap -->
     <script src="{{ asset('assets/vendor/bootstrap-5.3.0-dist/js/bootstrap.min.js') }}"></script>

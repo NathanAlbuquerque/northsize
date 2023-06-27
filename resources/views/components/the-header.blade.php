@@ -327,8 +327,7 @@
                     </li>
                 </ul>
                 <div class="theheader-gadgets">
-                    <!-- search -->
-                    <x-gadget-searchbar></x-gadget-searchbar>
+                    <x-gadget-searchbar placeholder="Buscar" />
                     <x-gadget-button name="heart" icon="fa fa-heart" href="#" />
                     <x-gadget-button name="cart" icon="fa fa-cart-shopping" href="#" />
                 </div>

@@ -1,3 +1,5 @@
+@props(['placeholder'])
+
 <section class="gadget-searchbar">
     <form action="" method="post">
         @csrf
@@ -5,7 +7,7 @@
             <button type="submit" class="gadget-searchbar-button">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </button>
-            <input type="text" name="search" id="search" class="gadget-searchbar-input" placeholder="Buscar" maxlength="50" required>
+            <input type="text" name="search" id="search" class="gadget-searchbar-input" placeholder="{{$placeholder}}" maxlength="50" required>
         </div>
     </form>
 </section>

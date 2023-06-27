@@ -25,6 +25,7 @@
     background-color: var(--ns0-bg-color);
     font-size: 16rem;
     padding-left: 40px;
+    border: solid 1px var(--ns1-bg-color);
 }
 .gadget-searchbar:hover .gadget-searchbar-input {
     background-color: var(--ns1-bg-color);
