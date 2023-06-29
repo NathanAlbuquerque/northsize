@@ -6,6 +6,7 @@
     height: 80px;
     display: grid;
     align-items: center;
+    z-index: 1;
 }
 
 .theheader .theheader-sections {

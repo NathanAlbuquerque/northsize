@@ -1,0 +1,29 @@
+.bannermain {
+    --height-bannermain: calc(100vw / 3.84);
+    width: 100vw;
+    height: var(--height-bannermain);
+}
+
+/* .bannermain .slick-dots {
+    bottom: 5px;
+}
+.bannermain .slick-dots li button::before {
+    font-size: 10px;
+} */
+
+/* .bannermain .bannermain-carousel */
+/* .bannermain .bannermain-carousel .bannermain-link */
+.bannermain .bannermain-carousel .bannermain-link .bannermain-imagem {
+    width: 100vw;
+    height: var(--height-bannermain);
+}
+
+.bannermain .slick-arrow.slick-prev {
+    left: 10px;
+    z-index: 1;
+}
+
+.bannermain .slick-arrow.slick-next {
+    right: 10px;
+    z-index: 1;
+}

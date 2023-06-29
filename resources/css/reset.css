@@ -12,6 +12,12 @@ html {
     height: 10000px;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 a, i, p {
     font-size: 12rem;
     text-decoration: none;
@@ -27,4 +33,9 @@ a:hover {
 
 ul {
     list-style: none;
+}
+
+.space {
+    width: 100vw;
+    height: 120px;
 }
