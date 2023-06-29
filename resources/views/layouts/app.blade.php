@@ -22,7 +22,7 @@
     <x-the-header></x-the-header>
     <div class="space"></div>
     {{ $slot }}
-    <x-the-footer></x-the-footer>
+    {{-- <x-the-footer></x-the-footer> --}}
 
     <!-- JQuery -->
     @Vite(['resources/js/jquery.min.js'])
