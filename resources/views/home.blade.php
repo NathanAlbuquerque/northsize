@@ -4,6 +4,8 @@
 
     <x-section-category></x-section-category>
 
+    <x-section-teamrange></x-section-teamrange>
+
     <!-- Code here ... -->
 
 </x-app-layout>

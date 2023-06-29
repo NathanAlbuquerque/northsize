@@ -1,0 +1,28 @@
+.teamrange .teamrange-image {
+    margin: 0 auto;
+}
+
+.teamrange .slick-arrow.slick-prev {
+    z-index: 1;
+    left: 10px;
+}
+
+.teamrange .slick-arrow.slick-prev::before {
+    content: '<';
+    color: #000;
+}
+
+.teamrange .slick-arrow.slick-next {
+    z-index: 1;
+    right: 10px;
+}
+
+.teamrange .slick-arrow.slick-next::before {
+    content: '>';
+    color: #000;
+}
+
+.teamrange .slick-list {
+    left: 50%;
+    transform: translateX(-50%);
+}
