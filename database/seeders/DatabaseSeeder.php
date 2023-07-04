@@ -16,8 +16,10 @@ class DatabaseSeeder extends Seeder
 
         \App\Models\User::factory()->create([
             'name' => 'Dev NS',
+            'hierarchy' => 'Administrador',
             'email' => 'dev@ns.com',
-            'password' => bcrypt('dvns')
+            'password' => bcrypt('dvns'),
+            'photo' => 'login-user.png',
         ]);
     }
 }

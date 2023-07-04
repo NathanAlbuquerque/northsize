@@ -27,4 +27,6 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+Route::prefix('/dashboard-ns')->middleware(['auth', 'verified'])->group(base_path('routes/admin.php'));
+
 require __DIR__.'/auth.php';
