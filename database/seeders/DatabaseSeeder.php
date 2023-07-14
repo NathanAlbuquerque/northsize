@@ -21,5 +21,7 @@ class DatabaseSeeder extends Seeder
             'password' => bcrypt('dvns'),
             'photo' => 'login-user.png',
         ]);
+
+        \App\Models\Banner::factory(10)->create();
     }
 }

@@ -18,9 +18,9 @@
 </head>
 <body>
 
-    <x-header-help></x-header-help>
+    {{-- <x-header-help></x-header-help>
     <x-the-header></x-the-header>
-    <div class="space"></div>
+    <div class="space"></div> --}}
     {{ $slot }}
     {{-- <x-the-footer></x-the-footer> --}}
 

@@ -1,9 +1,11 @@
 <?php
 
+use App\Http\Controllers\Admin\BannerController;
 use App\Http\Controllers\DashController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('index', [DashController::class, 'index'])->name('dash-index');
+Route::resource('banner', BannerController::class);
 
 Route::get('general', [DashController::class, 'general'])->name('dash-general');
 Route::get('hospital', [DashController::class, 'hospital'])->name('dash-hospital');

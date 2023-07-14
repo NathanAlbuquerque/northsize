@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html class=" ">
     <head>
-        <!-- 
+        <!--
          * @Package: Ultra Admin - Responsive Theme
          * @Subpackage: Bootstrap
          * @Version: B4-1.3
@@ -32,8 +32,8 @@
         <link href="assets/plugins/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" type="text/css"/>
         <!-- CORE CSS FRAMEWORK - END -->
 
-        <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START --> 
-        <link href="assets/plugins/messenger/css/messenger.css" rel="stylesheet" type="text/css" media="screen"/><link href="assets/plugins/messenger/css/messenger-theme-future.css" rel="stylesheet" type="text/css" media="screen"/><link href="assets/plugins/messenger/css/messenger-theme-flat.css" rel="stylesheet" type="text/css" media="screen"/>        <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END --> 
+        <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
+        <link href="assets/plugins/messenger/css/messenger.css" rel="stylesheet" type="text/css" media="screen"/><link href="assets/plugins/messenger/css/messenger-theme-future.css" rel="stylesheet" type="text/css" media="screen"/><link href="assets/plugins/messenger/css/messenger-theme-flat.css" rel="stylesheet" type="text/css" media="screen"/>        <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
 
 
         <!-- CORE CSS TEMPLATE - START -->
@@ -347,7 +347,7 @@
                             </div>
                         </li>
                     </ul>
-                </div>		
+                </div>
                 <div class='float-right'>
                     <ul class="info-menu right-links list-inline list-unstyled">
                         <li class="profile list-inline-item">
@@ -389,8 +389,8 @@
                                 <i class="fa fa-times"></i>
                             </a>
                         </li>
-                    </ul>			
-                </div>		
+                    </ul>
+                </div>
             </div>
 
         </div>
@@ -402,7 +402,7 @@
             <div class="page-sidebar ">
 
                 <!-- MAIN MENU - START -->
-                <div class="page-sidebar-wrapper" id="main-menu-wrapper"> 
+                <div class="page-sidebar-wrapper" id="main-menu-wrapper">
 
                     <!-- USER INFO - START -->
                     <div class="profile-info row">
@@ -431,16 +431,16 @@
 
 
 
-                    <ul class='wraplist'>	
+                    <ul class='wraplist'>
 
 
-                        <li class=""> 
+                        <li class="">
                             <a href="index.html">
                                 <i class="fa fa-dashboard"></i>
                                 <span class="title">Dashboard</span>
                             </a>
                         </li>
-                        <li class=""> 
+                        <li class="">
                             <a href="javascript:;">
                                 <i class="fa fa-suitcase"></i>
                                 <span class="title">Multi Purpose</span>
@@ -476,7 +476,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class=""> 
+                        <li class="">
                             <a href="javascript:;">
                                 <i class="fa fa-suitcase"></i>
                                 <span class="title">APPS</span>
@@ -497,7 +497,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="open"> 
+                        <li class="open">
                             <a href="javascript:;">
                                 <i class="fa fa-suitcase"></i>
                                 <span class="title">UI Elements</span>
@@ -551,7 +551,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class=""> 
+                        <li class="">
                             <a href="javascript:;">
                                 <i class="fa fa-sliders"></i>
                                 <span class="title">Forms</span>
@@ -581,7 +581,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class=""> 
+                        <li class="">
                             <a href="javascript:;">
                                 <i class="fa fa-gift"></i>
                                 <span class="title">Pages</span>
@@ -629,7 +629,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class=""> 
+                        <li class="">
                             <a href="javascript:;">
                                 <i class="fa fa-bar-chart"></i>
                                 <span class="title">Charts</span>
@@ -653,7 +653,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class=""> 
+                        <li class="">
                             <a href="javascript:;">
                                 <i class="fa fa-lock"></i>
                                 <span class="title">Access Pages</span>
@@ -671,7 +671,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class=""> 
+                        <li class="">
                             <a href="javascript:;">
                                 <i class="fa fa-table"></i>
                                 <span class="title">Tables</span>
@@ -689,7 +689,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class=""> 
+                        <li class="">
                             <a href="javascript:;">
                                 <i class="fa fa-envelope"></i>
                                 <span class="title">Mailbox</span>
@@ -707,7 +707,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class=""> 
+                        <li class="">
                             <a href="javascript:;">
                                 <i class="fa fa-map-marker"></i>
                                 <span class="title">Maps</span>
@@ -722,7 +722,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class=""> 
+                        <li class="">
                             <a href="javascript:;">
                                 <i class="fa fa-columns"></i>
                                 <span class="title">Layouts</span>
@@ -749,9 +749,9 @@
                                 <li > <a href="javascript:;"> <span class="title">Level 1.2</span> <span class="arrow "></span> </a>
                                     <ul class="sub-menu">
                                         <li > <a href="javascript:;"> <span class="title">Level 2.1</span> </a></li>
-                                        <li > <a href="ujavascript:;"> <span class="title">Level 2.2</span> <span class="arrow "></span></a> 
+                                        <li > <a href="ujavascript:;"> <span class="title">Level 2.2</span> <span class="arrow "></span></a>
                                             <ul class="sub-menu">
-                                                <li > <a href="javascript:;"> <span class="title">Level 3.1</span> <span class="arrow "></span></a> 
+                                                <li > <a href="javascript:;"> <span class="title">Level 3.1</span> <span class="arrow "></span></a>
                                                     <ul class="sub-menu">
                                                         <li > <a href="ujavascript:;"> <span class="title">Level 4.1</span> </a> </li>
                                                         <li > <a href="ujavascript:;"> <span class="title">Level 4.2</span> </a> </li>
@@ -1131,30 +1131,30 @@
         <!-- LOAD FILES AT PAGE END FOR FASTER LOADING -->
 
 
-        <!-- CORE JS FRAMEWORK - START --> 
-        <script src="assets/js/jquery-3.4.1.min.js" type="text/javascript"></script> 
-        <script src="assets/js/popper.min.js" type="text/javascript"></script> 
+        <!-- CORE JS FRAMEWORK - START -->
+        <script src="assets/js/jquery-3.4.1.min.js" type="text/javascript"></script>
+        <script src="assets/js/popper.min.js" type="text/javascript"></script>
         <!-- <script src="assets/js/jquery.easing.min.js" type="text/javascript"></script>  -->
-        <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script> 
-        <script src="assets/plugins/pace/pace.min.js" type="text/javascript"></script>  
+        <script src="assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/pace/pace.min.js" type="text/javascript"></script>
 
-        <script src="assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js" type="text/javascript"></script> 
-        <script src="assets/plugins/viewport/viewportchecker.js" type="text/javascript"></script>  
-        <!-- CORE JS FRAMEWORK - END --> 
-
-
-        <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START --> 
-        <script src="assets/plugins/messenger/js/messenger.min.js" type="text/javascript"></script><script src="assets/plugins/messenger/js/messenger-theme-future.js" type="text/javascript"></script><script src="assets/plugins/messenger/js/messenger-theme-flat.js" type="text/javascript"></script><script src="assets/js/messenger.js" type="text/javascript"></script><!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END --> 
+        <script src="assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js" type="text/javascript"></script>
+        <script src="assets/plugins/viewport/viewportchecker.js" type="text/javascript"></script>
+        <!-- CORE JS FRAMEWORK - END -->
 
 
-        <!-- CORE TEMPLATE JS - START --> 
-        <script src="assets/js/scripts.js" type="text/javascript"></script> 
-        <!-- END CORE TEMPLATE JS - END --> 
+        <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
+        <script src="assets/plugins/messenger/js/messenger.min.js" type="text/javascript"></script><script src="assets/plugins/messenger/js/messenger-theme-future.js" type="text/javascript"></script><script src="assets/plugins/messenger/js/messenger-theme-flat.js" type="text/javascript"></script><script src="assets/js/messenger.js" type="text/javascript"></script><!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END -->
 
-        <!-- Sidebar Graph - START --> 
+
+        <!-- CORE TEMPLATE JS - START -->
+        <script src="assets/js/scripts.js" type="text/javascript"></script>
+        <!-- END CORE TEMPLATE JS - END -->
+
+        <!-- Sidebar Graph - START -->
         <script src="assets/plugins/sparkline-chart/jquery.sparkline.min.js" type="text/javascript"></script>
         <script src="assets/js/chart-sparkline.js" type="text/javascript"></script>
-        <!-- Sidebar Graph - END --> 
+        <!-- Sidebar Graph - END -->
 
 
 

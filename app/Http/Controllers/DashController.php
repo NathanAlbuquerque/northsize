@@ -3,14 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\View\View;
 
 class DashController extends Controller
 {
     function index(Request $request) : View {
-        return view('adm-index', [
-            'user' => $request->user(),
-        ]);
+        $user = Auth::user();
+        return view('adm-index', compact('user'));
     }
     function general() : View {
         return view('adm-general');

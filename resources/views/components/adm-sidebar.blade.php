@@ -40,6 +40,24 @@
                 </a>
             </li>
 
+            <li class="{{ Route::currentRouteName() == 'banner.index' ? 'open' : '' }}">
+                <a href="javascript:;">
+                    <i class="fa fa-image"></i>
+                    <span class="title">Banner</span>
+                    {{-- <span class="arrow "></span><span class="badge badge-orange">NEW</span> --}}
+                </a>
+                <ul class="sub-menu" >
+                    <li>
+                        <a class="{{ Route::currentRouteName() == 'banner.index' ? 'active' : '' }}" href="{{ route('banner.index', []) }}">Todos</a>
+                    </li>
+                    <li>
+                        <a class="{{ Route::currentRouteName() == 'banner.create' ? 'active' : '' }}" href="{{ route('banner.create', []) }}">Adicionar</a>
+                    </li>
+                    {{-- more ? --}}
+                </ul>
+            </li>
+
+
             {{-- <li class="{{ Route::currentRouteName() == 'dash-index' ? 'open' : '' }}">
                 <a href="javascript:;">
                     <i class="fa fa-suitcase"></i>
@@ -98,6 +116,8 @@
                     </li>
                 </ul>
             </li>
+
+
             <li class="">
                 <a href="javascript:;">
                     <i class="fa fa-suitcase"></i>

@@ -2,7 +2,7 @@
     position: fixed;
     top: 40px;
     background-color: #fff;
-    width: 100%;
+    width: 100vw;
     height: 80px;
     display: grid;
     align-items: center;
