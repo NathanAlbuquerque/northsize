@@ -23,5 +23,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         \App\Models\Banner::factory(10)->create();
+
+        \App\Models\Product::factory(150)->create();
     }
 }

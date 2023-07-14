@@ -57,6 +57,21 @@
                 </ul>
             </li>
 
+            <li class="{{ Route::currentRouteName() == 'product.index' ? 'open' : '' }}">
+                <a href="javascript:;">
+                    <i class="fa fa-tags"></i>
+                    <span class="title">Produtos</span>
+                </a>
+                <ul class="sub-menu" >
+                    <li>
+                        <a class="{{ Route::currentRouteName() == 'product.index' ? 'active' : '' }}" href="{{ route('product.index', []) }}">Todos</a>
+                    </li>
+                    <li>
+                        <a class="{{ Route::currentRouteName() == 'product.create' ? 'active' : '' }}" href="{{ route('product.create', []) }}">Adicionar</a>
+                    </li>
+                </ul>
+            </li>
+
 
             {{-- <li class="{{ Route::currentRouteName() == 'dash-index' ? 'open' : '' }}">
                 <a href="javascript:;">
